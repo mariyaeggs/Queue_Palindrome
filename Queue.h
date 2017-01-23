@@ -45,23 +45,8 @@ public:
     /*----- Function Members -----*/
 
     Queue(); // Constructor
-    /*-----------------------------------------------------------------------
-    Construct a Queue object.
-
-    Precondition:  None.
-    Postcondition: An empty Queue object has been constructed; myFront
-        and myBack are initialized to -1 and myArray is an array with
-        QUEUE_CAPACITY elements of type QueueElement.
-   ----------------------------------------------------------------------*/
 
     bool is_empty() const;
-    /*-----------------------------------------------------------------------
-    Check if queue is empty.
-
-    Precondition: None.
-    Postcondition: True is returned if the queue is empty and false is
-        returned otherwise.
-   ----------------------------------------------------------------------*/
 
     void enqueue(const QueueElement & value);
     /*-----------------------------------------------------------------------

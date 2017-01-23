@@ -20,3 +20,15 @@ using namespace std;
  * @author Mariya Eggensperger
 */
 
+/**
+ * Default constructor. Construct an empty Queue object.
+ *
+ * @param args myFront and myBack are initialized to -1
+ * and myArray is an array with QUEUE_CAPACITY elements
+ * of type QueueElement.
+ * @return
+*/
+Queue::Queue()
+: myFront(0), myBack(0) // No values in the front || back of queue
+{}
+
