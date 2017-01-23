@@ -42,7 +42,7 @@ typedef int QueueElement;
 class Queue
 {
 public:
-    /*-----Function Members-----*/
+    /*----- Function Members -----*/
 
     Queue(); // Constructor
     /*-----------------------------------------------------------------------
@@ -101,6 +101,14 @@ public:
     Postcondition: Queue's contents, from front to back, have been output
         to out.
    -----------------------------------------------------------------------*/
-};
+
+private:
+
+    /*----- Data Members -----*/
+
+    int myFront, myBack; // Value at the front of queue and back of queue
+    QueueElement myArray[QUEUE_CAPACITY]; //Queue of 128 elements
+
+}; // End of Queue() class declaration
 
 #endif //PROGRAM3_EGGENSPERGER_MARIYA_QUEUE_H

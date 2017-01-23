@@ -28,11 +28,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Queue.h" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Queue.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Queue.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="499">
-              <caret line="102" column="76" lean-forward="false" selection-start-line="102" selection-start-column="76" selection-end-line="102" selection-end-column="76" />
+              <caret line="110" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -48,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Queue_Tester.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Queue_Tester.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Queue_Tester.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
@@ -320,12 +320,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1485168407282</updated>
-      <workItem from="1485168409219" duration="2112000" />
+      <workItem from="1485168409219" duration="2286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2112000" />
+    <option name="totallyTimeSpent" value="2286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="41" width="1920" height="1080" extended-state="0" />
@@ -370,14 +370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Queue.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="102" column="76" lean-forward="false" selection-start-line="102" selection-start-column="76" selection-end-line="102" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Queue.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -390,6 +382,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Queue.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="110" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
           <folding />
         </state>
       </provider>
