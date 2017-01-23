@@ -49,14 +49,6 @@ public:
     bool is_empty() const;
 
     void enqueue(const QueueElement & value);
-    /*-----------------------------------------------------------------------
-     Add a value to a queue.
-
-     Precondition:  value is to be added to this queue.
-     Postcondition: value is added to back of queue provided there is space;
-         otherwise, a queue-full message is displayed and execution is
-         terminated.
-    -----------------------------------------------------------------------*/
 
     QueueElement front() const;
     /*-----------------------------------------------------------------------

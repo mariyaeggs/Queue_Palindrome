@@ -42,4 +42,26 @@ bool Queue::is_empty() const
 {
    return (myFront == myBack);
 }
-
+/**
+ * Add a value to a queue.
+ *
+ * @param args Value is to be added to the back
+ * of this queue, provided there is space; otherwise,
+ * a queue-full message is displayed and execution
+ * terminated.
+ * @return void return
+*/
+void Queue::enqueue(const QueueElement & value)
+{
+   int myBack = (myBack+1) % QUEUE_CAPACITY;
+   if(newBack != myFront) // If queue is not full
+   {
+      myArray[myBack] = value;
+      myBack = newBack;
+   }
+   else
+   {
+      cerr << "\nQueue full. Cannot add value." <<endl;
+      exit(1); // Terminate program
+   }
+}
