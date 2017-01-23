@@ -31,4 +31,15 @@ using namespace std;
 Queue::Queue()
 : myFront(0), myBack(0) // No values in the front || back of queue
 {}
+/**
+ * Boolean check if a queue is empty.
+ *
+ * @param args True is returned if the queue
+ * is empty and false is returned otherwise.
+ * @return myFront == myBack
+*/
+bool Queue::is_empty() const
+{
+   return (myFront == myBack);
+}
 
