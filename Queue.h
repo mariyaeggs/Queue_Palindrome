@@ -50,6 +50,9 @@ public:
 
     void enqueue(const QueueElement & value);
 
+    void dequeue();
+
+
     QueueElement front() const;
     /*-----------------------------------------------------------------------
     Retrieve value at front of queue (if any).
@@ -59,17 +62,6 @@ public:
         empty; in that case, an error message is displayed and a "garbage
         value" is returned.
    ----------------------------------------------------------------------*/
-
-    void dequeue();
-    /*-----------------------------------------------------------------------
-    Remove value at front of queue (if any).
-
-    Precondition:  Queue is nonempty.
-    Postcondition: Value at front of queue has been removed, unless queue
-        is empty; in that case, an error message is displayed and
-        execution is terminated.
-   ----------------------------------------------------------------------*/
-
     void display(ostream & out) const;
     /*-----------------------------------------------------------------------
     Output the values stored in the queue.
