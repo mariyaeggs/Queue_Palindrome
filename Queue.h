@@ -47,29 +47,10 @@ public:
     Queue(); // Constructor
 
     bool is_empty() const;
-
     void enqueue(const QueueElement & value);
-
     void dequeue();
-
-
     QueueElement front() const;
-    /*-----------------------------------------------------------------------
-    Retrieve value at front of queue (if any).
-
-    Precondition:  Queue is nonempty.
-    Postcondition: Value at front of queue is returned, unless queue is
-        empty; in that case, an error message is displayed and a "garbage
-        value" is returned.
-   ----------------------------------------------------------------------*/
     void display(ostream & out) const;
-    /*-----------------------------------------------------------------------
-    Output the values stored in the queue.
-
-    Precondition:  ostream out is open.
-    Postcondition: Queue's contents, from front to back, have been output
-        to out.
-   -----------------------------------------------------------------------*/
 
 private:
 

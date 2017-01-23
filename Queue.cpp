@@ -85,3 +85,35 @@ void Queue::dequeue()
       exit(1); // Terminate program
    }
 }
+/**
+ * Retrieve value at front of queue (if any).
+ *
+ * @param args Queue is nonempty. Value at front of queue
+ * is returned, unless queue is empty; in that case, an
+ * error message is displayed and a "garbage value" is returned.
+ * @return QueueElement garbage_value
+*/
+QueueElement Queue::front() const
+{
+   if(!is_empty()) //If not is empty
+   {
+      return (myArray[myFront]);
+   }
+   else
+   {
+      cerr << "\nQueue is empty. Returning a garbage value." <<endl;
+      QueueElement garbage_value = 1111;
+      return garbage_value;
+   }
+}
+/**
+ * Output the values stored in the queue.
+ *
+ * @param args List object is inserted into out, the ostream out is open.
+ * @return void return
+*/
+void LinkedList::display(ostream &out) const {
+   for(int i = 0; i < mySize; i++) {
+      out << myStrArray[i] << " ";
+   }
+}
