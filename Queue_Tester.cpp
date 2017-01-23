@@ -20,5 +20,8 @@ using namespace std;
  * @author Mariya Eggensperger
 */
 int main() {
-   return 0;
+
+   Queue q1;
+
+   cout << "\nQueue created. Is Empty? " << boolalpha << q1.is_empty() << endl;
 }
