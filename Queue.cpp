@@ -54,6 +54,7 @@ bool Queue::is_empty() const
 void Queue::enqueue(const QueueElement & value)
 {
    int myBack = (myBack+1) % QUEUE_CAPACITY;
+   int newBack;
    if(newBack != myFront) // If queue is not full
    {
       myArray[myBack] = value;
@@ -112,8 +113,8 @@ QueueElement Queue::front() const
  * @param args List object is inserted into out, the ostream out is open.
  * @return void return
 */
-void LinkedList::display(ostream &out) const {
-   for(int i = 0; i < mySize; i++) {
-      out << myStrArray[i] << " ";
-   }
+void Queue::display(ostream &out) const {
+   for (int i = myFront; i != myBack; i = (i + 1) % QUEUE_CAPACITY)
+      out << myArray[i] << "  ";
+   cout << endl;
 }
