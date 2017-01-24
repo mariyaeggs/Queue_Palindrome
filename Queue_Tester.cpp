@@ -49,7 +49,8 @@ int main() {
       {
          cout << "\nThis is a palindrome." << endl;
       }
-      else {
+      else
+      {
          cout << "\nThis is NOT a palindrome" << endl;
       }
    }
